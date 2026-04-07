@@ -1,0 +1,14 @@
+C:\Users\46290704869\Documents\Revisão de front-end\images\bin\Debug\net10.0\images.exe
+C:\Users\46290704869\Documents\Revisão de front-end\images\bin\Debug\net10.0\images.deps.json
+C:\Users\46290704869\Documents\Revisão de front-end\images\bin\Debug\net10.0\images.runtimeconfig.json
+C:\Users\46290704869\Documents\Revisão de front-end\images\bin\Debug\net10.0\images.dll
+C:\Users\46290704869\Documents\Revisão de front-end\images\bin\Debug\net10.0\images.pdb
+C:\Users\46290704869\Documents\Revisão de front-end\images\obj\Debug\net10.0\images.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\46290704869\Documents\Revisão de front-end\images\obj\Debug\net10.0\images.AssemblyInfoInputs.cache
+C:\Users\46290704869\Documents\Revisão de front-end\images\obj\Debug\net10.0\images.AssemblyInfo.cs
+C:\Users\46290704869\Documents\Revisão de front-end\images\obj\Debug\net10.0\images.csproj.CoreCompileInputs.cache
+C:\Users\46290704869\Documents\Revisão de front-end\images\obj\Debug\net10.0\images.dll
+C:\Users\46290704869\Documents\Revisão de front-end\images\obj\Debug\net10.0\refint\images.dll
+C:\Users\46290704869\Documents\Revisão de front-end\images\obj\Debug\net10.0\images.pdb
+C:\Users\46290704869\Documents\Revisão de front-end\images\obj\Debug\net10.0\images.genruntimeconfig.cache
+C:\Users\46290704869\Documents\Revisão de front-end\images\obj\Debug\net10.0\ref\images.dll

@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background: #ffffff;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    border: 1px solid black;
+}
+
+/*Container usado para centralizar o conteudo site*/
+
+.layout-grid {
+    margin: 0% auto;
+    width: 1200px;
+    height: 100px;
+    /*border: 1px solid red;*/
+}
+
+.header-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header img {
+    width: 140px;
+    /*border: 1px solid blue;*/
+}
+
+/*Menu*/
+.header nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 300px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.header nav a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/*------Banner------*/
+
+.banner {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    /*border: 1px solid green;*/
+}
+
+.banner img {
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+/* Get started */
+.banner a {
+    /*referencial de posicionamento e o primeiro ancestral que tiver algum position definido*/
+    position: absolute;
+    display: flex;
+    top: calc((50% - 45px / 2)+ 100);
+    left: calc(50% - 155px / 2);
+    justify-content: center;
+    align-items: center;
+
+    /*Botao Get Started*/
+    width: 155px;
+    height: 45px;
+    font-weight: 500;
+    color: black;
+    background: #ffffff;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+/*----------REASON TO USE----------*/
+
+.reason-to-use{
+    width: 100%;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.reason-flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 2500px;
+}
+.reason-to-use .reason-card{
+    width: 300px;
+    height: 300px;
+    /* border: 4px solid rgb(255, 0, 0); */
+    background-color: rgb(255, 255, 255);
+}
+
+.reason-to-use .reason-card .imagem{
+    width: 80px;
+    height: 80px;   
+    border: 1px solid rgb(0, 0, 0); /*borda da imagem do card, bolinha redonda*/
+    border-radius: 50%;
+    margin: 20px auto; /*centralizar a imagem do card*/
+}
+
+.reason-to-use .reason-card h2{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+ .reason-to-use .reason-card p{
+    color: rgb(105, 105, 105); /*cor do texto do card*/
+    text-align: center; /*alinhamento do texto do card*/
+    padding: 0px 20px; /*espaçamento do texto do card*/
+}
