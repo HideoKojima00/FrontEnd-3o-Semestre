@@ -1,0 +1,51 @@
+/* DESKTOP :first
+DESKTOP >= ateo infinito */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Desktop */
+h1
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* breakingpoints Ponto de quebra do layout */
+/* table <992px (768px ate 991px)*/ 
+@media screen and (max-width: 991px){ 
+    h1
+{
+    color: green;
+}
+}
+/* smartphone <768px (0px ate 767px)*/
+@media screen and (max-width: 767px){
+    h1
+{
+    color: rgb(155, 0, 0);
+    background-color: pink;
+}
+
+}
+
+
+.container--flex
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.form-responsivo__image-perfil
+{
+    width: 70px;
+    height: 70px;
+
+    box-shadow: 0 0 7px rgb(222, 210, 124, 0.2);
+}
+
