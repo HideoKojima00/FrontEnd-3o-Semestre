@@ -1,0 +1,66 @@
+@media (max-width: 768px) {
+
+    .form-contact {
+        padding: 15px;
+    }
+
+    .form-contact__linha {
+        flex-direction: column;
+        margin-bottom: 12px;
+    }
+
+    /* Esconde os labels */
+    .form-contact__col-a {
+        display: none;
+    }
+
+    /* Inputs em coluna */
+    .form-contact__col-b {
+        width: 100%;
+        flex-direction: column;
+        gap: 12px; /* espaçamento IGUAL entre todos */
+    }
+
+    /* Todos inputs ocupam 100% */
+    .form-contact__input,
+    .form-contact__input--metade,
+    .form-contact__input--terco,
+    .form-contact__input--quarto,
+    .form-contact__input--inteira {
+        width: 100%;
+    }
+
+    .form-contact__input {
+        margin: 0;
+        height: 45px;
+    }
+
+    .form-contact__input--anotacoes {
+        height: 150px;
+    }
+
+    /* Botões */
+    .form-contact__col-b-botoes {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .form-contact__col-b-botoes button {
+        width: 100%;
+    }
+
+    /* Header menor */
+    .form-header__image-perfil {
+        width: 80px;
+    }
+
+    .form-header__title {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .form-header__subtitulo {
+        font-size: 14px;
+        text-align: center;
+    }
+}
