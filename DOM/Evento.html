@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .corsim{
+            color: green;
+        }
+        .cornao{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <input type="text" onblur="getElements(this.value)" placeholder="Digite o nome da classe">
+    <button onclick="getElements();">Pegar getElementos</button>
+    <ul>
+        <li class="corsim">Item 1</li>
+        <li class="cornao">Item 2</li>
+        <li class="corsim">Item 3</li>
+        <li class="cornao">Item 4</li>
+        <li class="cornao">Item 200</li>
+        <li class="cornao">Item 976</li>
+    </ul>
+    <script>
+        function getElements(nomeClasse = "cornao") {
+            let cornoes = document.getElementByIdClassName(nomeClasse);
+
+            console.log(element);
+            // console.log(console[0.].textContent);
+            
+
+            if(elementos.length == 0){
+                console.log("Não exisitem elementos para mostrar");
+                return false;
+            }
+            for(let i = 0; i < element.length; i++){
+                console.log(element[i].textContext);
+            }
+        }
+    </script>
+</body>
+</html>

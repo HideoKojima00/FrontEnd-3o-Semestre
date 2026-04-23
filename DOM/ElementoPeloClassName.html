@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+
+
+<body>
+
+    <ul id="listaFrutas">
+        <li class="corsim"></li>
+    </ul>
+
+    <script>
+        function cadastrarFruta() {
+            const fruta = document.getElementById("fruta").value;
+            const nomeClasse = document.getElementById("nomeClasse").value;
+            const listaFrutas = document.getElementById("listaFrutas");
+
+            //validar se ha campos sem preeencher
+            if (fruta.trim() == 0 || nomeClasse.trim().length == 0) {
+                alert("Preencha todos os campos!");
+                return false;
+            }
+            //cadastrar a fruta na lista
+            listaFrutas.innerHTML += `<li class="${nomeClasse}">${fruta}</li>`;
+            //limpar os campos
+            document.getElementById("fruta").value = "";
+            document.getElementById("nomeClasse").value = "";
+        }
+    </script>
+</body>
+
+</html>

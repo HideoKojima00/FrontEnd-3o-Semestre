@@ -1,0 +1,30 @@
+{
+  "usuarios": [
+    {
+      "id": "1",
+      "nome": "felipe",
+      "idade": 25
+    },
+    {
+      "id": "rkDV4NaKPps"
+    },
+    {
+      "id": "ozlMbVzgnZc"
+    }
+  ],
+  "frutas": [
+    {
+        "id": "1",
+        "nome": "banana",
+        "preco": 2.5
+    }
+  ],
+  "jogos": [
+    {
+        "id": "1",
+        "nome": "The Legend of Zelda: Breath of the Wild",
+        "preco": 59.99
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

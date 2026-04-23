@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        alert(`Titulo = ${document.getElementById('titulo').textContent}`);
+
+        function saudacao() {
+            alert (`titulo = ${document.getElementById('titulo').textContent}`);
+        }
+    </script>
+</head>
+<body>
+    <fontes></fontes>
+    <h1 id="titulo">ola eu sou o titulo da pagina</h1>
+    <button onclick="saudacao()">Clique aqui</button> <br>
+    <button onmousemove="mouseMOVEU();">Passe o mouse</button> <br>
+    <button onmousedown="clicouBAIXO();">Segura o clique</button> <br>
+    <button onmouseup="mouseSUBIU();">Solta o botao</button> <br>
+</body>
+</html>
