@@ -26,5 +26,6 @@
         "preco": 59.99
     }
   ],
+  "imc" : [],
   "$schema": "./node_modules/json-server/schema.json"
 }
