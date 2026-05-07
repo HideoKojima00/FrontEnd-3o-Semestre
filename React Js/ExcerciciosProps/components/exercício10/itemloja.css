@@ -1,0 +1,48 @@
+.loja-item {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px;
+  width: 260px;
+  background-color: #fff;
+  font-family: Arial, sans-serif;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.05);
+}
+
+.loja-nome {
+  margin: 0 0 10px 0;
+  font-size: 1.3rem;
+  color: #333;
+}
+
+.loja-categoria {
+  color: #777;
+  font-size: 0.9rem;
+  margin-bottom: 5px;
+}
+
+.loja-preco {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+.status-estoque {
+  margin-top: 15px;
+  padding: 8px;
+  border-radius: 4px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+/* Classes dinâmicas baseadas no estoque */
+.disponivel {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.indisponivel {
+  background-color: #f8d7da;
+  color: #721c24;
+}

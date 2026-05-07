@@ -1,0 +1,28 @@
+.perfil-card {
+  background-color: #ffffff;
+  border-left: 5px solid #6200ee; /* Um detalhe colorido na lateral */
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 250px;
+  margin: 15px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.perfil-nome {
+  margin-top: 0;
+  color: #6200ee;
+  font-size: 1.5rem;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
+}
+
+.perfil-info p {
+  margin: 8px 0;
+  color: #444;
+  font-size: 1rem;
+}
+
+.perfil-info strong {
+  color: #000;
+}

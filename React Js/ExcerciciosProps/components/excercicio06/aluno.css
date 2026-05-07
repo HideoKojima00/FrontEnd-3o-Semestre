@@ -1,0 +1,31 @@
+.aluno-card {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+  width: 200px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+}
+
+.aluno-foto {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%; /* Deixa a imagem redonda */
+  object-fit: cover;
+  margin-bottom: 10px;
+  border: 2px solid #007bff;
+}
+
+.aluno-nome {
+  margin: 5px 0;
+  color: #333;
+  font-family: sans-serif;
+}
+
+.aluno-curso {
+  color: #666;
+  font-size: 14px;
+  font-family: sans-serif;
+}

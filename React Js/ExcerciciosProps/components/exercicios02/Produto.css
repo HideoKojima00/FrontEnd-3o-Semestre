@@ -1,0 +1,26 @@
+.produto-container {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  margin: 10px;
+  background-color: #fff;
+  max-width: 300px;
+  font-family: Arial, sans-serif;
+}
+
+.produto-nome {
+  color: #2c3e50;
+  margin-top: 0;
+  font-size: 1.4rem;
+}
+
+.produto-preco {
+  color: #27ae60;
+  font-size: 1.1rem;
+}
+
+.produto-descricao {
+  color: #7f8c8d;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
